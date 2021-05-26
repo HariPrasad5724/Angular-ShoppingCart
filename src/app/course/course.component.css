@@ -1,1 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.css";
+.glyphicon {
+  padding: 30px;
+}
+.glyphicon-star {
+  color: aqua;
+}
+.glyphicon-star-empty {
+  color: black;
+}

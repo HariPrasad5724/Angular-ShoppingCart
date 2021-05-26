@@ -7,12 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title="Hello World"
-//   post={title :'Hello Hari!',
-//   isFavorite:true
-// }
-// onClick(){
-//   console.log("Star clicked");
-// }
+  post={
+    isFavorite:false
+  }
   tweet={
     body:'...',
     likesCount:0,
