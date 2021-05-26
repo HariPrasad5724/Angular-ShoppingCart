@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello Hari!';
+  title="Hello World"
+//   post={title :'Hello Hari!',
+//   isFavorite:true
+// }
+// onClick(){
+//   console.log("Star clicked");
+// }
+  tweet={
+    body:'...',
+    likesCount:0,
+    isLiked:false
+  }
 }

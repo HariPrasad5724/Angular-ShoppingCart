@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses.component';
 import { CourseComponent } from './course/course.component';
 import { AuthorComponent } from './author/author.component';
+import { PanelComponent } from './panel/panel.component';
+import { LikeComponent } from './like/like.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AuthorComponent } from './author/author.component';
     AuthorsComponent,
     CoursesComponent,
     CourseComponent,
-    AuthorComponent
+    AuthorComponent,
+    PanelComponent,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
