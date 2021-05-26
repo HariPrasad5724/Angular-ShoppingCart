@@ -1,6 +1,7 @@
 .glyphicon {
   color: #ccc;
   cursor: pointer;
+  padding: 40px;
 }
 
 .highlighted {
