@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+ul,
+div {
+  padding: 30px;
+}

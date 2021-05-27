@@ -11,6 +11,9 @@ import { CourseComponent } from './course/course.component';
 import { AuthorComponent } from './author/author.component';
 import { PanelComponent } from './panel/panel.component';
 import { LikeComponent } from './like/like.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ZippyComponent } from './zippy/zippy.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { LikeComponent } from './like/like.component';
     CourseComponent,
     AuthorComponent,
     PanelComponent,
-    LikeComponent
+    LikeComponent,
+    InputFormatDirective,
+    ZippyComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,

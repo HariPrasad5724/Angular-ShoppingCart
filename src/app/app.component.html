@@ -4,7 +4,46 @@
     <p>Body</p>
   </ng-container>
 </app-panel> -->
-
-<app-course [isFavorite]="post.isFavorite" ></app-course>
+<!--
+<app-course [isFavorite]="post.isFavorite" ></app-course> -->
 
 <!-- <like [likesCount]="tweet.likesCount" [isActive]="tweet.isLiked"></like> -->
+<!--
+<div *ngIf="courses.length>0; then coursesList else noCourses">
+</div>
+<ng-template #coursesList>
+  List of Courses
+</ng-template>
+<ng-template #noCourses>
+  No Courses Yet
+</ng-template> -->
+<!--
+<ul class="nav nav-pills">
+  <li [class.active]="viewMode=='map'"><a (click="viewMode='map'")>Map View</a></li>
+  <li [class.active]="viewMode=='list'"><a (click="viewMode='list'")>List View</a></li>
+</ul>
+<div [ngSwitch]="viewMode">
+  <div *ngSwitchCase="'map'">Map View Content</div>
+  <div *ngSwitchCase="'list'">List View Content</div>
+  <div *ngSwitchDefault>View Content</div>
+</div> -->
+
+<!-- <button (click)="onAdd()">Add courses</button> -->
+<!-- <button (click)="loadCourses()">Load Courses</button>
+<ul>
+  <li *ngFor="let course of courses; index as i; trackBy:trackCourse">
+    {{i}} - {{course.name}}
+    <button (click)="onRemove(course)">Remove Course</button>
+  </li>
+</ul> -->
+
+<!-- <app-course [isFavorite]="post.isFavorite"></app-course> -->
+<!-- <span>{{task.assignee?.name}}</span> -->
+<!-- <input type="text" appInputFormat [format]="'uppercase'"> -->
+<!-- <zippy title="Shipping Details">
+  Shipping Details Content
+</zippy>
+<zippy title="Billing Details">
+  Billing Details Content
+</zippy> -->
+<contact-form></contact-form>
